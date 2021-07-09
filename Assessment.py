@@ -327,15 +327,14 @@ def assembleAssessment(ref_fa,asb_fa,kmer_length,prefix):
           "{:<12.1f}ave distance diff\n".format(singleCopy+duplicateRate,singleCopy,duplicateRate,proportion_of_the_largest_categories,ave_distance_diff))
         fi.close()
 
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     opt = ArgParse()
     ref_seq = opt.input
     asb_seq = opt.reference
     kmer_len = opt.kmer_length
     prefix = opt.out_prefix
     assembleAssessment(ref_seq,asb_seq,kmer_len,prefix)
-'''
-assembleAssessment("ref_test.txt","asb_test.txt",21,"test")
+
 
 
 

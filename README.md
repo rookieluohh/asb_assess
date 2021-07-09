@@ -1,5 +1,5 @@
 # asb_assess
-This is a script to assess assemble with reference sequence.
+This is a python script to assess assemble with reference sequence.
 
 for Assessment.py:
 usage: Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] -o OUT_PREFIX
